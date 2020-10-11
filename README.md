@@ -15,7 +15,7 @@ Open http://localhost:3000 to view it in the browser.
 * Create a virtual environment and downloaded the certificates in .pem files and added required files.
 * After creating virtual environment, ```pip install -r requirements.txt```
 * Run the google colab and test for publish message.
-* Check for the response of data that is received by running the python sub.py file using ```python3 sub.py cmpelkk testpubsub-subscription1```
+* Check for the response of data that is received by running the python sub.py file using ```python3 sub.py <Project id in gcp cmpeiot> testpubsub-subscription1```
 * Create cloud functions for iotPubSub .
 * Triggering cloud function can either be done through Topics section in Cloud PubSub or directly by enabling cloud function.
 * Read sensor data from virtual machine and run the code set up for mqtt pub sub communication from notebook file.
