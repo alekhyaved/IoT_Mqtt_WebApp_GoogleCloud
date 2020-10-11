@@ -7,7 +7,9 @@ Available Scripts
 In the project directory, you can run:
 ```npm start```
 Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view it in the browser. To maintain cross origin policy we can make backend and frontend code to obey cross origin axis. However, I  have used command to disable web security such that there wont be CORS error. To open security disabled chrome, enter this command in terminal with location of chrome exe
+```open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_sess_1" --disable-web-security```
+
 
 ## Steps followed for this Project
 ### Google Cloud, IoT, VM, PubSub and Firestore
